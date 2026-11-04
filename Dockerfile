@@ -8,7 +8,9 @@ RUN apt update && \
 		curl \
 		gdb \
 		golang-go \
+		make \
 		strace \
+		tmux \
 		vim
 
 RUN curl https://sh.rustup.rs -sSf | sh -s -- -y 
